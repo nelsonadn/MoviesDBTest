@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B32D07A22721B4300CCFE79 /* RappiMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D07922721B4300CCFE79 /* RappiMovieTests.m */; };
+		4B32D08522721B4300CCFE79 /* RappiMovieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D08422721B4300CCFE79 /* RappiMovieUITests.m */; };
+		4B32D0B622721C2800CCFE79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D09D22721C2700CCFE79 /* main.m */; };
+		4B32D0B822721C2800CCFE79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D0A122721C2800CCFE79 /* AppDelegate.m */; };
+		4B32D0B922721C2800CCFE79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B32D0AF22721C2800CCFE79 /* LaunchScreen.storyboard */; };
+		4B32D0BA22721C2800CCFE79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B32D0B022721C2800CCFE79 /* Main.storyboard */; };
+		4B32D0BB22721C2800CCFE79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B32D0B222721C2800CCFE79 /* Assets.xcassets */; };
+		4B32D0BC22721C2800CCFE79 /* RappiMovie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D0B422721C2800CCFE79 /* RappiMovie.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B32D07622721B4300CCFE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B32D05222721B1500CCFE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B32D05922721B1500CCFE79;
+			remoteInfo = RappiMovie;
+		};
+		4B32D08122721B4300CCFE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B32D05222721B1500CCFE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B32D05922721B1500CCFE79;
+			remoteInfo = RappiMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B32D05A22721B1500CCFE79 /* RappiMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RappiMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B32D07522721B4300CCFE79 /* RappiMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RappiMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B32D07922721B4300CCFE79 /* RappiMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RappiMovieTests.m; sourceTree = "<group>"; };
+		4B32D07B22721B4300CCFE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B32D08022721B4300CCFE79 /* RappiMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RappiMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B32D08422721B4300CCFE79 /* RappiMovieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RappiMovieUITests.m; sourceTree = "<group>"; };
+		4B32D08622721B4300CCFE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B32D09D22721C2700CCFE79 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B32D09E22721C2700CCFE79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B32D0A022721C2800CCFE79 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B32D0A122721C2800CCFE79 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B32D0AF22721C2800CCFE79 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B32D0B022721C2800CCFE79 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4B32D0B222721C2800CCFE79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B32D0B522721C2800CCFE79 /* RappiMovie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RappiMovie.xcdatamodel; sourceTree = "<group>"; };
+		4B32D0BD22721C5A00CCFE79 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B32D05722721B1500CCFE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B32D07222721B4300CCFE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B32D07D22721B4300CCFE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B32D05122721B1500CCFE79 = {
+			isa = PBXGroup;
+			children = (
+				4B32D05C22721B1500CCFE79 /* RappiMovie */,
+				4B32D07822721B4300CCFE79 /* RappiMovieTests */,
+				4B32D08322721B4300CCFE79 /* RappiMovieUITests */,
+				4B32D05B22721B1500CCFE79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B32D05B22721B1500CCFE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D05A22721B1500CCFE79 /* RappiMovie.app */,
+				4B32D07522721B4300CCFE79 /* RappiMovieTests.xctest */,
+				4B32D08022721B4300CCFE79 /* RappiMovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B32D05C22721B1500CCFE79 /* RappiMovie */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D09F22721C2800CCFE79 /* Classes */,
+				4B32D0B322721C2800CCFE79 /* DB */,
+				4B32D0B122721C2800CCFE79 /* IMG */,
+				4B32D09C22721C2700CCFE79 /* Supporting Files */,
+				4B32D0AE22721C2800CCFE79 /* UI */,
+			);
+			path = RappiMovie;
+			sourceTree = "<group>";
+		};
+		4B32D07822721B4300CCFE79 /* RappiMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D07922721B4300CCFE79 /* RappiMovieTests.m */,
+				4B32D07B22721B4300CCFE79 /* Info.plist */,
+			);
+			path = RappiMovieTests;
+			sourceTree = "<group>";
+		};
+		4B32D08322721B4300CCFE79 /* RappiMovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D08422721B4300CCFE79 /* RappiMovieUITests.m */,
+				4B32D08622721B4300CCFE79 /* Info.plist */,
+			);
+			path = RappiMovieUITests;
+			sourceTree = "<group>";
+		};
+		4B32D09C22721C2700CCFE79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D09D22721C2700CCFE79 /* main.m */,
+				4B32D09E22721C2700CCFE79 /* Info.plist */,
+				4B32D0BD22721C5A00CCFE79 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			path = "RappiMovie/Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B32D09F22721C2800CCFE79 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D0A022721C2800CCFE79 /* AppDelegate.h */,
+				4B32D0A122721C2800CCFE79 /* AppDelegate.m */,
+				4B32D0AA22721C2800CCFE79 /* MovieList */,
+				4B32D0A622721C2800CCFE79 /* MovieDetail */,
+				4B32D0A222721C2800CCFE79 /* MoviePlayer */,
+			);
+			name = Classes;
+			path = RappiMovie/Classes;
+			sourceTree = "<group>";
+		};
+		4B32D0A222721C2800CCFE79 /* MoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D0A322721C2800CCFE79 /* Controller */,
+				4B32D0A422721C2800CCFE79 /* Model */,
+				4B32D0A522721C2800CCFE79 /* View */,
+			);
+			path = MoviePlayer;
+			sourceTree = "<group>";
+		};
+		4B32D0A322721C2800CCFE79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B32D0A422721C2800CCFE79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B32D0A522721C2800CCFE79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B32D0A622721C2800CCFE79 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D0A722721C2800CCFE79 /* Controller */,
+				4B32D0A822721C2800CCFE79 /* Model */,
+				4B32D0A922721C2800CCFE79 /* View */,
+			);
+			path = MovieDetail;
+			sourceTree = "<group>";
+		};
+		4B32D0A722721C2800CCFE79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B32D0A822721C2800CCFE79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B32D0A922721C2800CCFE79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B32D0AA22721C2800CCFE79 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D0AB22721C2800CCFE79 /* Controller */,
+				4B32D0AC22721C2800CCFE79 /* Model */,
+				4B32D0AD22721C2800CCFE79 /* View */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		4B32D0AB22721C2800CCFE79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B32D0AC22721C2800CCFE79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B32D0AD22721C2800CCFE79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B32D0AE22721C2800CCFE79 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D0AF22721C2800CCFE79 /* LaunchScreen.storyboard */,
+				4B32D0B022721C2800CCFE79 /* Main.storyboard */,
+			);
+			name = UI;
+			path = RappiMovie/UI;
+			sourceTree = "<group>";
+		};
+		4B32D0B122721C2800CCFE79 /* IMG */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D0B222721C2800CCFE79 /* Assets.xcassets */,
+			);
+			name = IMG;
+			path = RappiMovie/IMG;
+			sourceTree = "<group>";
+		};
+		4B32D0B322721C2800CCFE79 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D0B422721C2800CCFE79 /* RappiMovie.xcdatamodeld */,
+			);
+			name = DB;
+			path = RappiMovie/DB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B32D05922721B1500CCFE79 /* RappiMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B32D08922721B4300CCFE79 /* Build configuration list for PBXNativeTarget "RappiMovie" */;
+			buildPhases = (
+				4B32D05622721B1500CCFE79 /* Sources */,
+				4B32D05722721B1500CCFE79 /* Frameworks */,
+				4B32D05822721B1500CCFE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RappiMovie;
+			productName = RappiMovie;
+			productReference = 4B32D05A22721B1500CCFE79 /* RappiMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B32D07422721B4300CCFE79 /* RappiMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B32D08C22721B4300CCFE79 /* Build configuration list for PBXNativeTarget "RappiMovieTests" */;
+			buildPhases = (
+				4B32D07122721B4300CCFE79 /* Sources */,
+				4B32D07222721B4300CCFE79 /* Frameworks */,
+				4B32D07322721B4300CCFE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B32D07722721B4300CCFE79 /* PBXTargetDependency */,
+			);
+			name = RappiMovieTests;
+			productName = RappiMovieTests;
+			productReference = 4B32D07522721B4300CCFE79 /* RappiMovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B32D07F22721B4300CCFE79 /* RappiMovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B32D08F22721B4300CCFE79 /* Build configuration list for PBXNativeTarget "RappiMovieUITests" */;
+			buildPhases = (
+				4B32D07C22721B4300CCFE79 /* Sources */,
+				4B32D07D22721B4300CCFE79 /* Frameworks */,
+				4B32D07E22721B4300CCFE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B32D08222721B4300CCFE79 /* PBXTargetDependency */,
+			);
+			name = RappiMovieUITests;
+			productName = RappiMovieUITests;
+			productReference = 4B32D08022721B4300CCFE79 /* RappiMovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B32D05222721B1500CCFE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nelson Cruz Mora";
+				TargetAttributes = {
+					4B32D05922721B1500CCFE79 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4B32D07422721B4300CCFE79 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4B32D05922721B1500CCFE79;
+					};
+					4B32D07F22721B4300CCFE79 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4B32D05922721B1500CCFE79;
+					};
+				};
+			};
+			buildConfigurationList = 4B32D05522721B1500CCFE79 /* Build configuration list for PBXProject "RappiMovie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B32D05122721B1500CCFE79;
+			productRefGroup = 4B32D05B22721B1500CCFE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B32D05922721B1500CCFE79 /* RappiMovie */,
+				4B32D07422721B4300CCFE79 /* RappiMovieTests */,
+				4B32D07F22721B4300CCFE79 /* RappiMovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B32D05822721B1500CCFE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B32D0BA22721C2800CCFE79 /* Main.storyboard in Resources */,
+				4B32D0BB22721C2800CCFE79 /* Assets.xcassets in Resources */,
+				4B32D0B922721C2800CCFE79 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B32D07322721B4300CCFE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B32D07E22721B4300CCFE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B32D05622721B1500CCFE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B32D0B822721C2800CCFE79 /* AppDelegate.m in Sources */,
+				4B32D0B622721C2800CCFE79 /* main.m in Sources */,
+				4B32D0BC22721C2800CCFE79 /* RappiMovie.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B32D07122721B4300CCFE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B32D07A22721B4300CCFE79 /* RappiMovieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B32D07C22721B4300CCFE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B32D08522721B4300CCFE79 /* RappiMovieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B32D07722721B4300CCFE79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B32D05922721B1500CCFE79 /* RappiMovie */;
+			targetProxy = 4B32D07622721B4300CCFE79 /* PBXContainerItemProxy */;
+		};
+		4B32D08222721B4300CCFE79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B32D05922721B1500CCFE79 /* RappiMovie */;
+			targetProxy = 4B32D08122721B4300CCFE79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B32D08722721B4300CCFE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B32D08822721B4300CCFE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B32D08A22721B4300CCFE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X6NV55FC5;
+				GCC_PREFIX_HEADER = "RappiMovie/RappiMovie/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "RappiMovie/RappiMovie/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nelsoncruzmora.RappiMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B32D08B22721B4300CCFE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X6NV55FC5;
+				GCC_PREFIX_HEADER = "RappiMovie/RappiMovie/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "RappiMovie/RappiMovie/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nelsoncruzmora.RappiMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B32D08D22721B4300CCFE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X6NV55FC5;
+				INFOPLIST_FILE = RappiMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nelsoncruzmora.RappiMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RappiMovie.app/RappiMovie";
+			};
+			name = Debug;
+		};
+		4B32D08E22721B4300CCFE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X6NV55FC5;
+				INFOPLIST_FILE = RappiMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nelsoncruzmora.RappiMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RappiMovie.app/RappiMovie";
+			};
+			name = Release;
+		};
+		4B32D09022721B4300CCFE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X6NV55FC5;
+				INFOPLIST_FILE = RappiMovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nelsoncruzmora.RappiMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RappiMovie;
+			};
+			name = Debug;
+		};
+		4B32D09122721B4300CCFE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X6NV55FC5;
+				INFOPLIST_FILE = RappiMovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nelsoncruzmora.RappiMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RappiMovie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B32D05522721B1500CCFE79 /* Build configuration list for PBXProject "RappiMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B32D08722721B4300CCFE79 /* Debug */,
+				4B32D08822721B4300CCFE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B32D08922721B4300CCFE79 /* Build configuration list for PBXNativeTarget "RappiMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B32D08A22721B4300CCFE79 /* Debug */,
+				4B32D08B22721B4300CCFE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B32D08C22721B4300CCFE79 /* Build configuration list for PBXNativeTarget "RappiMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B32D08D22721B4300CCFE79 /* Debug */,
+				4B32D08E22721B4300CCFE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B32D08F22721B4300CCFE79 /* Build configuration list for PBXNativeTarget "RappiMovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B32D09022721B4300CCFE79 /* Debug */,
+				4B32D09122721B4300CCFE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B32D0B422721C2800CCFE79 /* RappiMovie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B32D0B522721C2800CCFE79 /* RappiMovie.xcdatamodel */,
+			);
+			currentVersion = 4B32D0B522721C2800CCFE79 /* RappiMovie.xcdatamodel */;
+			path = RappiMovie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B32D05222721B1500CCFE79 /* Project object */;
+}
