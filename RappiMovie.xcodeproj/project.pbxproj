@@ -14,7 +14,20 @@
 		4B32D0B922721C2800CCFE79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B32D0AF22721C2800CCFE79 /* LaunchScreen.storyboard */; };
 		4B32D0BA22721C2800CCFE79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B32D0B022721C2800CCFE79 /* Main.storyboard */; };
 		4B32D0BB22721C2800CCFE79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B32D0B222721C2800CCFE79 /* Assets.xcassets */; };
-		4B32D0BC22721C2800CCFE79 /* RappiMovie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D0B422721C2800CCFE79 /* RappiMovie.xcdatamodeld */; };
+		4B32D0C0227221A600CCFE79 /* BusinessLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D0BF227221A600CCFE79 /* BusinessLogic.m */; };
+		4B32D0C3227221B500CCFE79 /* ViewLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D0C2227221B500CCFE79 /* ViewLogic.m */; };
+		4B32D0CB2272713500CCFE79 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D0CA2272713500CCFE79 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4B32D0CF2272715000CCFE79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B32D0CE2272715000CCFE79 /* UIKit.framework */; };
+		4B32D0D12272716100CCFE79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B32D0D02272716100CCFE79 /* Foundation.framework */; };
+		4B32D0D32272717700CCFE79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B32D0D22272717700CCFE79 /* SystemConfiguration.framework */; };
+		4B32D0D52272717C00CCFE79 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B32D0D42272717C00CCFE79 /* CoreFoundation.framework */; };
+		4B32D0E12272785D00CCFE79 /* ValidationHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D0DC2272785D00CCFE79 /* ValidationHelpers.m */; };
+		4B32D13C2273664500CCFE79 /* LoadListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D13B2273664500CCFE79 /* LoadListViewController.m */; };
+		4B32D14022736EAD00CCFE79 /* MovieListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D13F22736EAD00CCFE79 /* MovieListTableViewController.m */; };
+		4B32D1432273742900CCFE79 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D1422273742900CCFE79 /* NavController.m */; };
+		4B32D1482273C77F00CCFE79 /* FrameCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D1442273C77F00CCFE79 /* FrameCollectionViewCell.m */; };
+		4B32D1492273C77F00CCFE79 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D1452273C77F00CCFE79 /* CollectionCell.m */; };
+		4BFC434422740F0F00EE1C12 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC434322740F0F00EE1C12 /* MovieDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +62,32 @@
 		4B32D0AF22721C2800CCFE79 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B32D0B022721C2800CCFE79 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4B32D0B222721C2800CCFE79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4B32D0B522721C2800CCFE79 /* RappiMovie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RappiMovie.xcdatamodel; sourceTree = "<group>"; };
 		4B32D0BD22721C5A00CCFE79 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4B32D0BE227221A600CCFE79 /* BusinessLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessLogic.h; sourceTree = "<group>"; };
+		4B32D0BF227221A600CCFE79 /* BusinessLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessLogic.m; sourceTree = "<group>"; };
+		4B32D0C1227221B500CCFE79 /* ViewLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewLogic.h; sourceTree = "<group>"; };
+		4B32D0C2227221B500CCFE79 /* ViewLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewLogic.m; sourceTree = "<group>"; };
+		4B32D0C92272713400CCFE79 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4B32D0CA2272713500CCFE79 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4B32D0CE2272715000CCFE79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B32D0D02272716100CCFE79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B32D0D22272717700CCFE79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4B32D0D42272717C00CCFE79 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4B32D0DC2272785D00CCFE79 /* ValidationHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationHelpers.m; sourceTree = "<group>"; };
+		4B32D0DE2272785D00CCFE79 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4B32D0DF2272785D00CCFE79 /* ValidationHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationHelpers.h; sourceTree = "<group>"; };
+		4B32D13A2273664500CCFE79 /* LoadListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadListViewController.h; sourceTree = "<group>"; };
+		4B32D13B2273664500CCFE79 /* LoadListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadListViewController.m; sourceTree = "<group>"; };
+		4B32D13E22736EAD00CCFE79 /* MovieListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieListTableViewController.h; sourceTree = "<group>"; };
+		4B32D13F22736EAD00CCFE79 /* MovieListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieListTableViewController.m; sourceTree = "<group>"; };
+		4B32D1412273742900CCFE79 /* NavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		4B32D1422273742900CCFE79 /* NavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		4B32D1442273C77F00CCFE79 /* FrameCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameCollectionViewCell.m; sourceTree = "<group>"; };
+		4B32D1452273C77F00CCFE79 /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
+		4B32D1462273C77F00CCFE79 /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		4B32D1472273C77F00CCFE79 /* FrameCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameCollectionViewCell.h; sourceTree = "<group>"; };
+		4BFC434222740F0F00EE1C12 /* MovieDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
+		4BFC434322740F0F00EE1C12 /* MovieDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B32D0D52272717C00CCFE79 /* CoreFoundation.framework in Frameworks */,
+				4B32D0D32272717700CCFE79 /* SystemConfiguration.framework in Frameworks */,
+				4B32D0D12272716100CCFE79 /* Foundation.framework in Frameworks */,
+				4B32D0CF2272715000CCFE79 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +125,7 @@
 				4B32D05C22721B1500CCFE79 /* RappiMovie */,
 				4B32D07822721B4300CCFE79 /* RappiMovieTests */,
 				4B32D08322721B4300CCFE79 /* RappiMovieUITests */,
+				4B32D0CD2272714F00CCFE79 /* Frameworks */,
 				4B32D05B22721B1500CCFE79 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,8 +143,9 @@
 		4B32D05C22721B1500CCFE79 /* RappiMovie */ = {
 			isa = PBXGroup;
 			children = (
+				4B32D0DB2272785D00CCFE79 /* Helpers */,
 				4B32D09F22721C2800CCFE79 /* Classes */,
-				4B32D0B322721C2800CCFE79 /* DB */,
+				4B32D0C82272711E00CCFE79 /* LIB */,
 				4B32D0B122721C2800CCFE79 /* IMG */,
 				4B32D09C22721C2700CCFE79 /* Supporting Files */,
 				4B32D0AE22721C2800CCFE79 /* UI */,
@@ -144,6 +187,12 @@
 			children = (
 				4B32D0A022721C2800CCFE79 /* AppDelegate.h */,
 				4B32D0A122721C2800CCFE79 /* AppDelegate.m */,
+				4B32D0BE227221A600CCFE79 /* BusinessLogic.h */,
+				4B32D0BF227221A600CCFE79 /* BusinessLogic.m */,
+				4B32D0C1227221B500CCFE79 /* ViewLogic.h */,
+				4B32D0C2227221B500CCFE79 /* ViewLogic.m */,
+				4B32D1412273742900CCFE79 /* NavController.h */,
+				4B32D1422273742900CCFE79 /* NavController.m */,
 				4B32D0AA22721C2800CCFE79 /* MovieList */,
 				4B32D0A622721C2800CCFE79 /* MovieDetail */,
 				4B32D0A222721C2800CCFE79 /* MoviePlayer */,
@@ -155,9 +204,9 @@
 		4B32D0A222721C2800CCFE79 /* MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
-				4B32D0A322721C2800CCFE79 /* Controller */,
 				4B32D0A422721C2800CCFE79 /* Model */,
 				4B32D0A522721C2800CCFE79 /* View */,
+				4B32D0A322721C2800CCFE79 /* Controller */,
 			);
 			path = MoviePlayer;
 			sourceTree = "<group>";
@@ -186,9 +235,9 @@
 		4B32D0A622721C2800CCFE79 /* MovieDetail */ = {
 			isa = PBXGroup;
 			children = (
-				4B32D0A722721C2800CCFE79 /* Controller */,
 				4B32D0A822721C2800CCFE79 /* Model */,
 				4B32D0A922721C2800CCFE79 /* View */,
+				4B32D0A722721C2800CCFE79 /* Controller */,
 			);
 			path = MovieDetail;
 			sourceTree = "<group>";
@@ -196,6 +245,8 @@
 		4B32D0A722721C2800CCFE79 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4BFC434222740F0F00EE1C12 /* MovieDetailViewController.h */,
+				4BFC434322740F0F00EE1C12 /* MovieDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -217,9 +268,11 @@
 		4B32D0AA22721C2800CCFE79 /* MovieList */ = {
 			isa = PBXGroup;
 			children = (
-				4B32D0AB22721C2800CCFE79 /* Controller */,
+				4B32D13A2273664500CCFE79 /* LoadListViewController.h */,
+				4B32D13B2273664500CCFE79 /* LoadListViewController.m */,
 				4B32D0AC22721C2800CCFE79 /* Model */,
 				4B32D0AD22721C2800CCFE79 /* View */,
+				4B32D0AB22721C2800CCFE79 /* Controller */,
 			);
 			path = MovieList;
 			sourceTree = "<group>";
@@ -227,6 +280,8 @@
 		4B32D0AB22721C2800CCFE79 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4B32D13E22736EAD00CCFE79 /* MovieListTableViewController.h */,
+				4B32D13F22736EAD00CCFE79 /* MovieListTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -241,6 +296,10 @@
 		4B32D0AD22721C2800CCFE79 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4B32D1462273C77F00CCFE79 /* CollectionCell.h */,
+				4B32D1452273C77F00CCFE79 /* CollectionCell.m */,
+				4B32D1472273C77F00CCFE79 /* FrameCollectionViewCell.h */,
+				4B32D1442273C77F00CCFE79 /* FrameCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -264,13 +323,36 @@
 			path = RappiMovie/IMG;
 			sourceTree = "<group>";
 		};
-		4B32D0B322721C2800CCFE79 /* DB */ = {
+		4B32D0C82272711E00CCFE79 /* LIB */ = {
 			isa = PBXGroup;
 			children = (
-				4B32D0B422721C2800CCFE79 /* RappiMovie.xcdatamodeld */,
+				4B32D0C92272713400CCFE79 /* Reachability.h */,
+				4B32D0CA2272713500CCFE79 /* Reachability.m */,
 			);
-			name = DB;
-			path = RappiMovie/DB;
+			name = LIB;
+			path = RappiMovie/LIB;
+			sourceTree = "<group>";
+		};
+		4B32D0CD2272714F00CCFE79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D0D42272717C00CCFE79 /* CoreFoundation.framework */,
+				4B32D0D22272717700CCFE79 /* SystemConfiguration.framework */,
+				4B32D0D02272716100CCFE79 /* Foundation.framework */,
+				4B32D0CE2272715000CCFE79 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B32D0DB2272785D00CCFE79 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B32D0DE2272785D00CCFE79 /* Constants.h */,
+				4B32D0DF2272785D00CCFE79 /* ValidationHelpers.h */,
+				4B32D0DC2272785D00CCFE79 /* ValidationHelpers.m */,
+			);
+			name = Helpers;
+			path = RappiMovie/Classes/Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,9 +485,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BFC434422740F0F00EE1C12 /* MovieDetailViewController.m in Sources */,
+				4B32D14022736EAD00CCFE79 /* MovieListTableViewController.m in Sources */,
+				4B32D0C0227221A600CCFE79 /* BusinessLogic.m in Sources */,
+				4B32D1432273742900CCFE79 /* NavController.m in Sources */,
+				4B32D13C2273664500CCFE79 /* LoadListViewController.m in Sources */,
 				4B32D0B822721C2800CCFE79 /* AppDelegate.m in Sources */,
+				4B32D0E12272785D00CCFE79 /* ValidationHelpers.m in Sources */,
+				4B32D0C3227221B500CCFE79 /* ViewLogic.m in Sources */,
+				4B32D0CB2272713500CCFE79 /* Reachability.m in Sources */,
+				4B32D1492273C77F00CCFE79 /* CollectionCell.m in Sources */,
 				4B32D0B622721C2800CCFE79 /* main.m in Sources */,
-				4B32D0BC22721C2800CCFE79 /* RappiMovie.xcdatamodeld in Sources */,
+				4B32D1482273C77F00CCFE79 /* FrameCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,19 +794,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4B32D0B422721C2800CCFE79 /* RappiMovie.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4B32D0B522721C2800CCFE79 /* RappiMovie.xcdatamodel */,
-			);
-			currentVersion = 4B32D0B522721C2800CCFE79 /* RappiMovie.xcdatamodel */;
-			path = RappiMovie.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4B32D05222721B1500CCFE79 /* Project object */;
 }
