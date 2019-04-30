@@ -16,4 +16,6 @@
 
 -(void)showAlertWithMessage:(NSString *)stringMessage;
 -(void)goToMovieListTableViewController;
+-(void)goToMovieDetailViewController:(NSString *)stringMovieID;
+
 @end

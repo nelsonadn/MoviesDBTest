@@ -7,7 +7,8 @@
 //
 
 #import "ViewLogic.h"
-#import "NavController.h"
+#import "MovieListTableViewController.h"
+#import "MovieDetailViewController.h"
 
 @implementation ViewLogic
 
@@ -51,10 +52,22 @@ static ViewLogic *sharedInstance = nil;
 }
 
 -(void)goToMovieListTableViewController{
-    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    NavController *viewController = (NavController *)[storyboard instantiateViewControllerWithIdentifier:@"NavController"];
+    MovieListTableViewController *viewController = (MovieListTableViewController *)[[self getStoryBoard] instantiateViewControllerWithIdentifier:@"MovieListTableViewController"];
     viewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     [[self currectViewController] presentViewController:viewController animated:YES completion:nil];
+}
+
+-(void)goToMovieDetailViewController:(NSString *)stringMovieID {
+    MovieDetailViewController *viewController = (MovieDetailViewController *)[[self getStoryBoard] instantiateViewControllerWithIdentifier:@"MovieDetailViewController"];
+    viewController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    viewController.stringMovieID = stringMovieID;
+    [[self currectViewController] presentViewController:viewController animated:YES completion:nil];
+    NSString *stringURL = [NSString stringWithFormat:@"%@/%@?%@&api_key=%@", BASE_URL, stringMovieID, DEFAULT_LAN, API_KEY];
+    [[BusinessLogic sharedInstance] getMovieDetailFromUrl:stringURL andMovieID:stringMovieID];
+}
+
+-(UIStoryboard *)getStoryBoard{
+    return [UIStoryboard storyboardWithName:@"Main" bundle:nil];
 }
 
 -(UIViewController *)currectViewController{

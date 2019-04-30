@@ -24,7 +24,6 @@
 		4B32D0E12272785D00CCFE79 /* ValidationHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D0DC2272785D00CCFE79 /* ValidationHelpers.m */; };
 		4B32D13C2273664500CCFE79 /* LoadListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D13B2273664500CCFE79 /* LoadListViewController.m */; };
 		4B32D14022736EAD00CCFE79 /* MovieListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D13F22736EAD00CCFE79 /* MovieListTableViewController.m */; };
-		4B32D1432273742900CCFE79 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D1422273742900CCFE79 /* NavController.m */; };
 		4B32D1482273C77F00CCFE79 /* FrameCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D1442273C77F00CCFE79 /* FrameCollectionViewCell.m */; };
 		4B32D1492273C77F00CCFE79 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B32D1452273C77F00CCFE79 /* CollectionCell.m */; };
 		4BFC434422740F0F00EE1C12 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC434322740F0F00EE1C12 /* MovieDetailViewController.m */; };
@@ -80,8 +79,6 @@
 		4B32D13B2273664500CCFE79 /* LoadListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadListViewController.m; sourceTree = "<group>"; };
 		4B32D13E22736EAD00CCFE79 /* MovieListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieListTableViewController.h; sourceTree = "<group>"; };
 		4B32D13F22736EAD00CCFE79 /* MovieListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieListTableViewController.m; sourceTree = "<group>"; };
-		4B32D1412273742900CCFE79 /* NavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
-		4B32D1422273742900CCFE79 /* NavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
 		4B32D1442273C77F00CCFE79 /* FrameCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameCollectionViewCell.m; sourceTree = "<group>"; };
 		4B32D1452273C77F00CCFE79 /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
 		4B32D1462273C77F00CCFE79 /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
@@ -191,45 +188,11 @@
 				4B32D0BF227221A600CCFE79 /* BusinessLogic.m */,
 				4B32D0C1227221B500CCFE79 /* ViewLogic.h */,
 				4B32D0C2227221B500CCFE79 /* ViewLogic.m */,
-				4B32D1412273742900CCFE79 /* NavController.h */,
-				4B32D1422273742900CCFE79 /* NavController.m */,
 				4B32D0AA22721C2800CCFE79 /* MovieList */,
 				4B32D0A622721C2800CCFE79 /* MovieDetail */,
-				4B32D0A222721C2800CCFE79 /* MoviePlayer */,
 			);
 			name = Classes;
 			path = RappiMovie/Classes;
-			sourceTree = "<group>";
-		};
-		4B32D0A222721C2800CCFE79 /* MoviePlayer */ = {
-			isa = PBXGroup;
-			children = (
-				4B32D0A422721C2800CCFE79 /* Model */,
-				4B32D0A522721C2800CCFE79 /* View */,
-				4B32D0A322721C2800CCFE79 /* Controller */,
-			);
-			path = MoviePlayer;
-			sourceTree = "<group>";
-		};
-		4B32D0A322721C2800CCFE79 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		4B32D0A422721C2800CCFE79 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		4B32D0A522721C2800CCFE79 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		4B32D0A622721C2800CCFE79 /* MovieDetail */ = {
@@ -488,7 +451,6 @@
 				4BFC434422740F0F00EE1C12 /* MovieDetailViewController.m in Sources */,
 				4B32D14022736EAD00CCFE79 /* MovieListTableViewController.m in Sources */,
 				4B32D0C0227221A600CCFE79 /* BusinessLogic.m in Sources */,
-				4B32D1432273742900CCFE79 /* NavController.m in Sources */,
 				4B32D13C2273664500CCFE79 /* LoadListViewController.m in Sources */,
 				4B32D0B822721C2800CCFE79 /* AppDelegate.m in Sources */,
 				4B32D0E12272785D00CCFE79 /* ValidationHelpers.m in Sources */,

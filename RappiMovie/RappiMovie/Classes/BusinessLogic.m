@@ -78,11 +78,12 @@ static BusinessLogic *sharedInstance = nil;
     NSURLSessionDataTask *dataTask = [[NSURLSession sharedSession] dataTaskWithRequest:[self mutableURLRequestWithURL:stringURLRequest]
                                                                      completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
                                                                          if (error) {
-                                                                             NSLog(@"%@", error);
+                                                                             NSLog(@"%ld",  (long)[(NSHTTPURLResponse *)response statusCode]);
                                                                              //[[ViewLogic sharedInstance] showAlertWithMessage:[NSString stringWithFormat:@"%@", error]];
                                                                          } else {
                                                                              [self saveJsonWithData:data andName:movieID];
                                                                          }
+                                                                         [[NSNotificationCenter defaultCenter]postNotificationName:@"updateMovieInfo"  object:self userInfo:nil];
                                                                      }];
     [dataTask resume];
 }
@@ -126,7 +127,7 @@ static BusinessLogic *sharedInstance = nil;
     return dataPath;
 }
 
--(void)downloadAndCacheImageFromUrl:(NSString*)strUrl{
+-(void)downloadAndCacheImageFromUrl:(NSString*)strUrl isPoster:(BOOL)isPoster{
     NSString* theFileName = [NSString stringWithFormat:@"%@.jpg",[[strUrl lastPathComponent] stringByDeletingPathExtension]];
     NSFileManager *fileManager =[NSFileManager defaultManager];
     NSString *fileName = [NSHomeDirectory() stringByAppendingPathComponent:[NSString stringWithFormat:@"tmp/%@",theFileName]];
@@ -150,8 +151,8 @@ static BusinessLogic *sharedInstance = nil;
                 }
             }
             if(self.delegate){
-                if([self.delegate respondsToSelector:@selector(returnImageFromURL:image:)]){
-                    [self.delegate returnImageFromURL:self image:image];
+                if([self.delegate respondsToSelector:@selector(returnImageFromURL:image:isPoster:)]){
+                    [self.delegate returnImageFromURL:self image:image isPoster:isPoster];
                 }
             }
             //Return Image

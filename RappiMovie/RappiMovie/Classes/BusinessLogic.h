@@ -16,7 +16,7 @@ typedef enum {
 
 @protocol BusinessLogicDelegate <NSObject>
 @optional
--(void)returnImageFromURL:(BusinessLogic*)businessLogic image:(UIImage*)image;
+-(void)returnImageFromURL:(BusinessLogic*)businessLogic image:(UIImage*)image isPoster:(BOOL)isPoster;
 
 @end
 
@@ -30,7 +30,8 @@ typedef enum {
 -(void)loadInitialConfiguration;
 -(void)updateLocalDataBase:(MLRequest)movieListrequest numberOfPage:(int)page;
 -(NSData *)getSavedJsonDataWithName:(NSString *)stringName;
--(void)downloadAndCacheImageFromUrl:(NSString*)strUrl;
+-(void)downloadAndCacheImageFromUrl:(NSString*)strUrl isPoster:(BOOL)isPoster;
+-(void)getMovieDetailFromUrl:(NSString *)stringURLRequest andMovieID:(NSString *)movieID;
 
 @end
 

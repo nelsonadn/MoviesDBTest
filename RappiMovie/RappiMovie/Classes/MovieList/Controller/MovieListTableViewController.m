@@ -15,7 +15,7 @@
 
 @implementation MovieListTableViewController
 
-@synthesize arrayPopular, arrayTopRated, arrayUncoming;
+@synthesize arrayPopular, arrayTopRated, arrayUncoming, randomID;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -88,16 +88,15 @@
     return 40;
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
         static NSString *CellIdentifier = @"TableCellHeader";
         CollectionCell * cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
         if (self.arrayPopular.count > 5) {
-            int x = arc4random() % 5;
-            cell.stringImageName = [[self.arrayPopular valueForKey:@"backdrop_path"] objectAtIndex:x];
-            cell.titleLabel.text= [[self.arrayPopular valueForKey:@"original_title"] objectAtIndex:x];
-            cell.subTitleLabel.text = [NSString stringWithFormat:@"%@ votes", [[self.arrayPopular valueForKey:@"vote_count"] objectAtIndex:x]];
+            self.randomID = arc4random() % 5;;
+            cell.stringImageName = [[self.arrayPopular valueForKey:@"backdrop_path"] objectAtIndex:self.randomID];
+            cell.titleLabel.text= [[self.arrayPopular valueForKey:@"original_title"] objectAtIndex:self.randomID];
+            cell.subTitleLabel.text = [NSString stringWithFormat:@"%@ votes", [[self.arrayPopular valueForKey:@"vote_count"] objectAtIndex:self.randomID]];
             cell.isLoadedCell = YES;
         }
         return cell;
@@ -129,6 +128,10 @@
         CollectionCell* customCell = (CollectionCell*)(cell);
         customCell.isLoadedCell = NO;
     }
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [[ViewLogic sharedInstance] goToMovieDetailViewController:[NSString stringWithFormat:@"%@", [[self.arrayPopular valueForKey:@"id"] objectAtIndex:self.randomID]]];
 }
 
 @end

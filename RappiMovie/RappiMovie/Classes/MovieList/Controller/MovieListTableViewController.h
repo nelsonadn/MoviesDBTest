@@ -13,5 +13,6 @@
 @property (nonatomic) NSArray *arrayPopular;
 @property (nonatomic) NSArray *arrayTopRated;
 @property (nonatomic) NSArray *arrayUncoming;
+@property (nonatomic) int randomID;
 
 @end
